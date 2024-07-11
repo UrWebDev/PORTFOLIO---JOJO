@@ -7,7 +7,7 @@ const Hero = () => {
     <section className='heroSection'>
         <div className="left">
             <div className='innerleft'>
-              <h1>Jojo C. Maninang :</h1>
+              <h1>Jojo C. Maninang POGI :</h1>
             </div>
             <div className="workpo">
               <h1>Front-end & Web Design</h1>
