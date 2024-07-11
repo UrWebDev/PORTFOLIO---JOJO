@@ -1,0 +1,111 @@
+.heroSection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+  
+    .left {
+      background-color: #9754cb;
+      width: 60%;
+      height: 100vh;
+      color: white;
+      text-align: justify;
+      // 
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-bottom: 1rem;
+
+  
+      .innerleft {
+        padding: 3%;
+      }
+  
+      .workpo {
+        margin: -15% 0 0 10%;
+        padding: 0 30% 0 0;
+      }
+      .navcontainer {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        // margin-bottom: 1rem;
+        // aayusin
+        padding: 1rem 0;
+        
+        .nav {
+          color: white;
+          text-decoration: none;
+          font-size: 1.5rem;
+          margin-right: 3%;
+  
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  
+    .right {
+      width: 40%;
+      height: 100vh;
+      color: #9754cb;
+      position: relative;
+
+  
+      .innerright {
+        padding: 3%;
+        display: flex;
+        justify-content: flex-end;
+      }
+      .image-container {
+        position: absolute;
+        top: 300px;
+        left: -280px;
+        
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        width: 70%;
+        height: 40%; // Adjust as needed
+        background-color: #e0e0e0; // Gray background for the image container
+        img {
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+  
+      .circlecontainer {
+        padding: 3%;
+        display: flex;
+        align-items: flex-end;
+        margin: 15% 0 0 0;
+        flex-direction: column;
+  
+            .circle {
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
+          background-color: #9754cb;
+          margin: 2%;
+            }
+      }
+      .linescontainer {
+        margin-top: 24%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+      }
+      
+      .lines {
+        width: 80%;
+        height: 3px;
+        background-color: #9754cb;
+        margin: 2px 0;
+      }
+      
+    }
+  }
+  
